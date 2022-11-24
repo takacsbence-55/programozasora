@@ -1,4 +1,5 @@
-szam = float(input("Adjon meg egy számot: "))
+print("Adjon meg egy alapszámot:")
+szam = float(input())
 print("Adja meg a mértékegységet(cm, m, km):")
 mertekegyseg = input()
 print("Adja meg mibe szeretné átváltani:")
@@ -14,7 +15,7 @@ if mertekegyseg == "cm":
         km = float(szam/100000)
         print("A",szam,"cm az",km,"kilóméter.")
 
-if mertekegyseg == "m":
+elif mertekegyseg == "m":
     if mibe == "cm":
         cm = szam*100
         print("A",szam,"méter átváltva",cm,"centiméter.")
@@ -22,7 +23,7 @@ if mertekegyseg == "m":
         km = szam/1000
         print("A",szam,"méter az",km,"kilóméter.")
 
-if mertekegyseg == "km":
+elif mertekegyseg == "km":
     if mibe == "cm":
         cm = szam*100000
         print("A",szam,"kilóméter átváltva",cm,"centiméter.")
