@@ -16,3 +16,6 @@ while True:
 
 for i,j in konyvek.items():
     print(i," : ",j)
+
+#for i in konyvek.keys():
+    #print(i," : ",konyvek[i])
