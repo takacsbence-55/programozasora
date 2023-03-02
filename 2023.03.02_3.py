@@ -1,17 +1,20 @@
 konyvek = {}
 while True:
-    cimek = []
-    szerzo = input()
+    cimek = {}
+    szerzo = input("Adj meg egy szerzőt: ")
 
     if szerzo == "":
         break
     else:
         while True:
-            cim = input()
+            cim = input("Adj meg egy címet: ")
             if cim == "":
                 break
             else:
-                cimek.append(cim)
+                kiadas = int(input("Add meg a kiadási évet: "))
+                kategoria = input("Add meg a kategóriát: ")
+                leiras = input("Add meg a tartalmát: ")
+                cimek[cim] = {"Kiadási év":kiadas,"kategória":kategoria,"Tartalom":leiras}
         konyvek[szerzo] = cimek
 
 for i,j in konyvek.items():
