@@ -27,3 +27,7 @@ for i in versszakok:
     print(i)
 
 print(len(versszakok))
+
+with open("ujhimnusz.txt","w",encoding="utf-8") as ujfile:
+    ujfile.write("Hello")
+    ujfile.write("Szia")
