@@ -29,7 +29,8 @@ for i in versszakok:
 print(len(versszakok))
 
 with open("ujhimnusz.txt","w",encoding="utf-8") as ujfile:
-    ujfile.write("Hello")
-    ujfile.write("Szia")
     for i in versszakok:
         ujfile.write(i+"\n")
+    ujfile.write("Sorok száma: "+str(len(himnusz))+"\n")
+    ujfile.write("Sorok száma üres nélkül: "+str(db)+"\n")
+    ujfile.write("Versszakok száma: "+str(len(versszakok))+"\n")
