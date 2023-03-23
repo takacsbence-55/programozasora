@@ -1,0 +1,9 @@
+Szerző: Kölcsey
+	 könyv: Himnusz
+		Kiadási év:1823
+		kategória:Himnusz
+		Tartalom:valami
+	 könyv: a
+		Kiadási év:1845
+		kategória:b
+		Tartalom:egw
