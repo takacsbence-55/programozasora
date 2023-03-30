@@ -22,6 +22,6 @@ def kodolas(mondat,betu,darab):
             cserel = cserel + i
     return cserel
 
-#szoveg = kodolas("Valami szöveget kell megadni","a",2)
-szoveg = kodolas(input("Adj meg egy mondatot: "),str(input("Add meg melyik betűt szeretnéd átalakítani: ")),int(input("Add meg hány betűt szeretnél átalakítani: ")))
+szoveg = kodolas("Valami szöveget kell megadni","a",2)
+#szoveg = kodolas(input("Adj meg egy mondatot: "),str(input("Add meg melyik betűt szeretnéd átalakítani: ")),int(input("Add meg hány betűt szeretnél átalakítani: ")))
 print(szoveg)
