@@ -9,6 +9,7 @@ def rendez(lista):
 EU = []
 EU2 = []
 dic = {}
+
 with open("EU.txt","r",encoding="utf-8") as file:
     for sor in file:
         dic["Ország név"] = sor.strip().split(" ")[0]
@@ -45,4 +46,7 @@ print("B betűvel kezdődő:", dbb)
 print("6-nál hosszabb:", db6)
 print("Legrövidebb hossz:", legrövh)
 print("Legrövidebb név:", legrövn)
+
+rendez(EU)
+print(EU)
 print(EU2)
